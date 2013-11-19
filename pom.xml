@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.wassilak</groupId>
     <artifactId>win-kl</artifactId>
-    <version>0.1</version>
+    <version>1.0</version>
     <packaging>pom</packaging>
     <modules>
         <module>win-kl-java</module>

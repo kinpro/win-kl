@@ -14,7 +14,7 @@ arguments = ""
 
 ' classpath holds the location of the jar artifact.
 Dim classpath
-classpath = " -cp win-kl-java-0.1-jar-with-dependencies.jar "
+classpath = " -cp win-kl-java-1.0-jar-with-dependencies.jar "
 
 ' libraryPath holds the location of the directory containing the dll artifact.
 Dim libraryPath

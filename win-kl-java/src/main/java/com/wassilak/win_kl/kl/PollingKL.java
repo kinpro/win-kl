@@ -15,7 +15,7 @@ public class PollingKL implements KL {
      * The LIB_NAME constant contains the name of the native library. It is
      * broken out as a constant because it contains the project version.
      */
-    public static final String LIB_NAME = "win-kl-native-0.1";
+    public static final String LIB_NAME = "win-kl-native-1.0";
 
     /**
      * The static initializer loads the library containing the native

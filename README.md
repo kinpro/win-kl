@@ -33,8 +33,8 @@ cd deployment
 Then I copy in the jar with dependencies, the dll(with the version in the name)
 and a provided vbs script:
 ```
-cp ..\win-kl-java\target\win-kl-java-0.1-jar-with-dependencies.jar .
-cp ..\win-kl-native\target\win-kl-native-0.1.dll .
+cp ..\win-kl-java\target\win-kl-java-1.0-jar-with-dependencies.jar .
+cp ..\win-kl-native\target\win-kl-native-1.0.dll .
 cp ..\win-kl-java\src\main\shell\win-kl.vbs .
 ```
 

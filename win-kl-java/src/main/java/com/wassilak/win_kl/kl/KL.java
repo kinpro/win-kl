@@ -1,11 +1,16 @@
 package com.wassilak.win_kl.kl;
 
+import java.io.File;
+
 /**
- * Created with IntelliJ IDEA.
- * User: jwassilak
- * Date: 11/15/13
- * Time: 3:24 PM
- * To change this template use File | Settings | File Templates.
+ * The KL interface defines the behavior of a key-logger.
  */
 public interface KL {
+
+    /**
+     * The run method triggers the key-logger to begin execution.
+     *
+     * @param logFile The file that the key-logger should log keys to.
+     */
+    public void run(File logFile);
 }

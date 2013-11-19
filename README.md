@@ -59,15 +59,15 @@ The app doesn't require any arguments, it's default behavior is to log keys
 to "keys.txt". The default behavior can be overridden by passing arguments:
 <table>
     <tr>
-        <td>--logFile=FILE_NAME_HERE</td>
+        <td>--log.file=FILE_NAME_HERE</td>
         <td>The file location to write captured keys to.</td>
     </tr>
     <tr>
-        <td>--emailAddress=yourEmail@gmail.com</td>
+        <td>--email.address=yourEmail@gmail.com</td>
         <td>The address to email logs to.</td>
     </tr>
     <tr>
-        <td>--emailPassword=yourPasswordHere</td>
+        <td>--email.password=yourPasswordHere</td>
         <td>The password for the given email account.</td>
     </tr>
 </table>

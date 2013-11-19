@@ -51,7 +51,7 @@ public class Win_KL {
     public static void main(String[] args) {
         Win_KL win_kl = new Win_KL();
         for (String s : args) {
-            if (s.contains("--logFile=")) {
+            if (s.contains("--log.file=")) {
                 win_kl.logFile = new File(s.substring(s.indexOf('=') + 1));
             } else if (s.contains("--email.address=")) {
                 win_kl.emailAddress = s.substring(s.indexOf('=') + 1);
